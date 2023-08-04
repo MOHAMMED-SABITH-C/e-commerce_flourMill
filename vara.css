@@ -1,0 +1,171 @@
+body{
+    height:100vh;
+    width:100%;
+    background:linear-gradient(#2196f3,#e91e63);
+}
+.bubbles{
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-right: 50px;
+    border-radius:20px;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:space-around;
+    position:absolute;
+}
+.bubbles span:before{
+    transform: skew(45deg);
+}
+.bubbles span{
+    border-radius:45px;
+    height:60px;
+    width:60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow:0 20px 50px rgba(0,0,0,0.2);
+    backdrop-filter:blur(5p0x);
+    animation:move 10s linear infinite;
+}
+@keyframes move{
+    100%{
+            transform:translateY(100vh);
+    }
+    }
+    .bubbles span.one{
+        animation-delay:4s;
+        transform:scale(2.5);
+    }
+    .bubbles span.two{
+        animation-delay:6.2s;
+    }
+    .bubbles span.three{
+        animation-delay:1s;
+        transform:scale(3);
+    
+    }
+    .bubbles span.four{
+        animation-delay:4.5s;
+        transform:scale(2);
+    }
+    
+    .bubbles span.five{
+        animation-delay:7.1s;
+    }
+    .bubbles span.six{
+        animation-delay:2.5s;
+        transform:scale(2.2);
+    }
+    .bubbles span.seven{
+        animation-delay:0.5s;
+    }
+    .bubble{
+        padding-right: 100px;
+        padding-left: 80px;
+        border-radius:20px;
+        display:flex;
+        width:100%;
+        justify-content:space-around;
+        bottom: 0;
+        position:absolute;
+    }
+    .bubble span{
+        border-radius:4px;
+        height:60px;
+        width:60px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow:0 20px 50px rgba(0,0,0,0.2);
+        backdrop-filter:blur(50px);
+        animation:moves 10s linear infinite;
+        
+    }
+    @keyframes moves{
+    100%{
+            transform:translateY(-100vh);
+    }
+    }
+    .bubble span.one1{
+        animation-delay:4s;
+        transform:scale(1.5);
+    }
+    .bubble span.two2{
+        animation-delay:6.2s;
+    }
+    .bubble span.three3{
+        animation-delay:1s;
+        transform:scale(3);
+    
+    }
+    .bubble span.four4{
+        animation-delay:4.5s;
+        transform:scale(2);
+    }
+    
+    .bubble span.five5{
+        animation-delay:7.1s;
+    }
+    .bubble span.six6{
+        animation-delay:2.5s;
+        transform:scale(2.2);
+    }
+    .bubble span.seven7{
+        animation-delay:0.5s;
+    }
+#div2{
+
+}
+.div2-1,.div2-2{
+    width:100%;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:25px;
+    height:502px;
+}
+.button1:hover{
+    width:120px;
+    background-color:rgb(86,86,86,0.1);
+    color:palegoldenrod;
+}
+
+.button1{
+    width:28px;
+    align-items:right;
+    border-radius:50px;
+    height:28px;
+    float:right;
+}
+h1{
+    text-align:center;
+
+}
+.tab1{
+    border-radius:50px;
+    width:100%;
+    color:rgb(255, 255, 255,0.5);
+    text-align: center;
+    height:100hv;
+}
+img{
+    block-size: 200px;
+    cursor:crosshair;
+    border-radius: 100px;
+}
+
+a{
+    color:rgb(7, 6, 7);
+    text-decoration:none;
+    
+}
+td{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: -1px 20px 30px black;
+}
+.data2,.data3,.data4,.data1{
+    text-decoration:none;
+}
+.button{
+    border-color:none;
+    border-radius: 100px;
+    height:30px;
+    width:100px
+}

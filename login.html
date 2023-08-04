@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <script  language="JavaScript" type="text/javascript" >
+
+        function callnext(){
+            window.location.href="vara.html";
+        }
+        
+            function check(){
+                  //  alert("hi");
+                var a;
+                
+                var b,c,d;
+                var flag=-1;
+                a=document.form1.pin.value;
+                //alert(a.fontcolor("red"));
+                if(a.length>6 || a.length<6)
+                {
+                    flag=1;
+                    c="wrong pincode";
+                    alert(c);
+
+                }
+                
+             // document.form1.innerHTML= "<p> thethtthzz</p>";
+                switch(a){
+                    /*case "1":alert(a);
+                    break;
+                    default : alert("go");
+                    break;*/
+                    
+                    case "676306":b="Delivery to "+a+" is available";
+                                    break;
+                    case "676305":b="Delivery to "+a+" is available";
+                                    break;
+                    case "676307":b="Delivery to "+a+" is available";
+                                    break;
+                    case "676308":b="Delivery to "+a+" is available";
+                                    break;       
+                    default:c="Delivery to "+a+" is not available";
+                            flag=1;
+                            a="";
+                            alert(c);
+                            break; 
+                }
+                //alert(a+b)
+                if(flag==1)
+                {document.form1.para2.value=c;
+                    document.form1.pin.value=a;
+                    b="";
+                    document.form1.para.value=b;
+                }
+                else{
+                    c="";
+                
+                document.form1.para.value=b;
+                document.form1.para2.value=c;
+                }
+            }
+        </script>
+
+            <div class="div1" >
+                VARAMBANALA<BR>FLOUR 
+                   
+            </div>
+   
+            <div class="div2">
+        
+        
+                <div class="div2-1" >
+                    <form action="vara.html" method="GET" name="form1">
+                        FULL NAME<br>
+                        <input type="text" id="txt1" placeholder="Enter Your Name"><BR><br>
+                        <br><br>USERNAME<br>
+                        <input type="text" id="txt1" placeholder="Enter Your Name"><BR><br>
+                        <br><br>ENTER YOUR PINCODE
+                        <br><input type="number" name="pin" id="txt2" placeholder="Enter Your Pincode">
+                        <input type="button" onclick="check();" value="CHECK" class="button1">
+                        <br><label>check the availablity of delivery</label>
+                        <input type="text" id="text6" name="para2" value="" >
+                        <input type="text" id="text5" name="para" value="" >
+                        <br>
+                   
+                       <br>
+                        ENTER YOUR E-MAIL<br>
+                            <input type="email" name="email" id="txt2" placeholder="Enter Your e-mail"><br><br>
+                        
+                        <br><br>ENTER YOUR ADDRESS
+                        <br> <textarea neme="area"value="" rows="5"type="text" id="txt4"  placeholder="ENTER YOUR ADDRESS"></textarea><br><br><br><br>
+                        <div class="div2-2">
+                            <BR><input type="reset" value="CLEAR" class="button2">
+                            <input type="submit" value="CREATE A ACCOUND" onclick="callnext()" class="button3">
+                        </div>
+                   
+
+                    </form>
+                </div>
+                                            <br><br><br>
+                <div class="div2-3">
+                    <table class="table1" border>
+                        <tr>
+                            <td>
+                    
+                            </td>
+                        </tr>
+                    </table>
+                    <h6 id="h6-2">
+                        contact no : 7510845510<br>e-mail : best31801@gmail.com
+                    </h6>     <br>
+                    <p></p>
+                </div>
+            </div>      
+                        <!--<select  placeholder="PONCODE">
+                            <option  value="pincode" >PINCODE</option>
+                            <option  value="1" >676306</option>
+                            <option value="2" >676307</option>
+                            <option value="3" >676308</option>
+                            <option value="4" >676309</option>
+                        </select>-->
+                        
+</body>
+</html>

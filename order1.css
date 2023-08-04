@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding:0;
+    background-size:cover;
+    background:url(/first/213.jpg) no-repeat;
+}
+#div1{
+    float:left;
+    height:80%;
+}
+img{
+    height:100%;
+    width:100%;
+    border-radius:20px;
+    float:left;
+}
+.div1-3{
+    background-color:red;
+    height:100%;
+    width:100%;
+
+}
+.div2-1{
+    backdrop-filter:inherit;
+    align-content: center;
+    width:70%;
+    float:left;
+
+}
+.button2{
+    border-radius: 23px;
+    height: 35px;
+    width:300px;
+    color:rgb(250, 246, 246);
+    border:0;
+    background-color: red;
+    font-size:15px;
+    font-weight: bold;
+
+
+}
+.div1-1{
+    float:left;
+    height:80%;
+    width:70%;
+}
+.div1-2{
+    float:left;
+}
+.button1{
+    background-color: yellow;
+    border-radius: 23px;
+    border:0;
+    height: 35px;
+    width:300px;
+    color:green;
+    font-size:15px;
+    font-weight: bold;
+
+}
+p{
+    font-style:italic;    
+    border-spacing: 10px;
+    font-size:25px;
+    font-weight:900;
+}
